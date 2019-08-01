@@ -9,8 +9,14 @@ function checkAB(num) {
             }
         }
     }
-    console.log(selisihAb);
-    console.log(selisihBa);
+    for (var i = 0; i < selisihAb.length; i++){
+        if(selisihAb[i] === 4){
+            return true;
+        }else{
+            
+        }
+    }
+    return false;
   }
   
   // TEST CASES

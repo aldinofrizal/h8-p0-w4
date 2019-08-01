@@ -16,9 +16,7 @@ function changeMe(arr) {
         };
         console.log(i+1 + '. ' + data.firstName + ' ' + data.lastName + ': ');
         console.log(data);
-      
-    }
-    
+    }  
 }
   
   // TEST CASES
