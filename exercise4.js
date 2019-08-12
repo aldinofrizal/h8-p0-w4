@@ -18,7 +18,7 @@ function cariModus(arr) {
     for (var i = 0; i < arr.length; i++){
         sumElement.push(0);
     }
-
+    // console.log(sumElement);
     //store value if there is a same element in input array
     for (var i = 0; i < arr.length; i++){
         for (var j = 0; j < arr.length; j++){
@@ -27,6 +27,7 @@ function cariModus(arr) {
             }
         }
     }
+    // console.log(sumElement);
     // find the biggest and the foremost sumElement
     // console.log(sumElement);
     var pivot = 0;
