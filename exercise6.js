@@ -10,7 +10,7 @@ function digitPerkalianMinimum(angka) {
     // you can only write your code here!
     num1 = [];
     num2 = [];
-    for (var i = 0; i < 189; i++){ //set to 189 iteration to fulfill test case parameter
+    for (var i = 0; i <= angka; i++){ 
         if (angka % i === 0){
             num1.push(angka/i);
             num2.push(i);
